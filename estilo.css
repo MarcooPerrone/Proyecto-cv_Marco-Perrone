@@ -1,0 +1,222 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding-top: 70px;
+}
+#imagenfondo {
+    background-color: rgb(68, 33, 133);
+    background-image: url("ImagenFondo.jpg");
+    position: absolute;
+    background-size: 100% 100%;
+    margin-top: 0;
+    background-repeat: no-repeat;
+    height: 62.7%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+header{
+    height: 70px;
+    display: flex;
+    background-color: rgb(68, 33, 133);
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+}
+
+
+.nombre_apellido p{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 550px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+    position: absolute;
+    text-align: center;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    height: 2200px;
+    background-color: transparent;
+    min-height: 70px;
+    margin-top: 450px;
+    margin-bottom: 0px;
+    border-top: 6px solid   rgb(68, 33, 133);
+}
+
+p {
+    font-weight: 500;
+    padding-top: 130px;
+    padding-right: 20px;
+    font-size: 18px;
+    margin-left:10px;
+}
+
+.circulo{
+    margin-top: 350px;
+    margin-left: 45%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    border: 7px solid   rgb(68, 33, 133);
+    position: absolute;
+    z-index: 80;
+}
+.circulo > .imagen{
+    position: absolute;
+    width: 100.5%;
+    height: 100.5%;
+    border-radius: 100%;
+}
+.sobre_mi{
+    width: 800px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.sobre_mi p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align:justify;
+    font-weight: 300;
+    padding-top: 50px;
+    border-top: 4px solid rgb(68, 33, 133);
+    padding-top: 70px;
+}
+.estudios{
+    width: 800px;
+    margin-top: 700px;
+    position: absolute;
+}
+.estudios p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align:justify;
+    font-weight: 300;
+    padding-top: 60px;
+    border-top: 4px solid  rgb(68, 33, 133);
+}
+
+.experiencia{
+    width: 800px;
+    margin-top: 1050px;
+    position: absolute;
+}
+
+.experiencia p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align:justify;
+    font-weight: 300;
+    padding-top: 50px;
+    border-top: 4px solid rgb(68, 33, 133);
+    padding-top: 70px;
+
+}
+
+.habilidades{
+    width: 800px;
+    margin-top: 1700px;
+    padding-right: 300px;
+    position: absolute;
+}
+.habilidades p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-top: 50px;
+    border-top: 4px solid  rgb(68, 33, 133);
+    padding-top: 70px;
+
+}
+.idioma{ 
+    width: 800px;
+    margin-top: 1700px;
+    padding-left: 300px;
+    position: absolute;
+
+}
+.idioma p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-top: 50px;
+    border-top: 4px solid  rgb(68, 33, 133);
+
+}
+
+p i{
+    color: rgb(0, 0, 0);
+    padding-right: 5px;
+}
+
+
+nav a:hover{
+    color: rgb(168, 137, 255);
+}
+
+#bdark{
+    background:#2a1746;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+ 
+}
+#bdark span{
+    width: 30px;
+    height: 28px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: rgb(255, 255, 255);
+}
+nav button :hover{
+    color: rgb(172, 141, 255);
+}
+
+nav {
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 15px 20px;
+
+  }
+  
+.darkmode{
+    background-color: #111111 ;
+    color: white;
+}
+
+.darkmode i{
+    color: white;
+}
+
